@@ -1,0 +1,37 @@
+옵션 마다  , 추가 마지막 옵션에는 , 생략
+
+infinite : true, 	//무한 반복 옵션	 
+slidesToShow : 4,		// 한 화면에 보여질 컨텐츠 개수
+slidesToScroll : 1,		//스크롤 한번에 움직일 컨텐츠 개수
+speed : 100,	 // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
+arrows : true, 		// 옆으로 이동하는 화살표 표시 여부
+dots : true, 		// 스크롤바 아래 점으로 페이지네이션 여부
+autoplay : true,			// 자동 스크롤 사용 여부
+autoplaySpeed : 10000, 		// 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
+pauseOnHover : true,		// 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
+vertical : false,		// 세로 방향 슬라이드 옵션
+rows:3,     //세로개체수
+
+arrows:true,                 //이전다음버튼 
+draggable: true,           //마우스 드래그 가능여부
+fade:true ,               //페이드 효과
+easing:linear,             //가속도 효과 수정
+pauseOnDotsHover,       //페이저 도트에 오버시 정지
+swipe : true,        //모바일_ 스와이프 가능
+swipeToSlide : true,   //모바일_스와이프 가능
+touchMove : true,      //모바일_손가락터치시 슬라이드
+responsive: [                   
+                       {  breakpoint: 1200,    
+                              settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1
+                              }
+                         }, {  breakpoint: 1024,
+                              settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1
+                              }
+                         },{ breakpoint: 800,
+                              settings: "unslick"  //슬라이더 없음
+                            }
+                 ]  //반응형 포인트 지정

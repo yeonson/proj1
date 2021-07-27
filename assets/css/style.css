@@ -290,8 +290,12 @@ ul.list-check li::before {
 	padding: 120px 0 0px;
     background-color: #F7F7F7;
 }
+#about{
+    padding-bottom: 60px;
+}
 #skills{
     padding-bottom: 100px;
+    
 }
 
 
@@ -582,15 +586,18 @@ SOCIAL ICON
     position: relative;
     background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
     background-size: contain;
+    border-radius: 20px;
+    
 }
 
 .myphoto img{
     position: relative;
-
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .biography ul{
     padding:25px 20px 30px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 .biography ul li{
@@ -1081,8 +1088,11 @@ Resume Timeline
    margin-bottom: 20px;
    border: 1px solid #eee;
    border-bottom: 3px double #eee;
+   border-radius: 20px;
 }
-
+.portfolio-bg img{
+   border-radius: 20px;
+}
 
 .portfolio {
     position: relative;
@@ -1207,6 +1217,8 @@ Resume Timeline
     height: 45px;
     width: 100%;
     text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .portfolio:hover .tt-overlay, 
@@ -1217,6 +1229,7 @@ Resume Timeline
     -ms-transform: translate(0,0);
     -o-transform: translate(0,0);
     transform: translate(0,0);
+    border-radius: 20px;
 }
 .portfolio:hover .portfolio-info{
     bottom: 0;

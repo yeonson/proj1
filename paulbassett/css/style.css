@@ -22,6 +22,9 @@ h2{
     color: #fff;
     border: 1px solid #e0004d;
 }
+.blue{
+    border-bottom: 3px solid blue;
+}
 
 #pop_up{
     position: relative;
@@ -79,12 +82,6 @@ h2{
         font-weight: bold;
         padding-bottom: 20px;
     }
-#gnb .depth1 > li:nth-child(1) > a{
-    color: gold;
-}
-#gnb .depth2 .gold{
-    color: gold;
-}
 
 #gnb .depth1 > li:hover{
         border-bottom: 5px solid #e0004d;

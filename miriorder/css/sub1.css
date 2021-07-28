@@ -5,6 +5,12 @@
     width: 100%; overflow:hidden;
 } /*반응형이 아닐때 꼭 넣기*/
 ul, li{list-style: none;}
+.blue {
+    border: 3px solid blue;
+}
+.blue_bottom{
+    border-bottom: 3px solid blue;
+}
 
 /*********************header****************************/
 #mobile{
